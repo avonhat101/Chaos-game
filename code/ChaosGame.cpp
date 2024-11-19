@@ -35,7 +35,7 @@ int main()
 
 	while (window.isOpen())
 	{
-		
+		window.setFramerateLimit(10);
 		/*
 		****************************************
 		Handle the players input
