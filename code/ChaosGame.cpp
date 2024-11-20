@@ -210,7 +210,7 @@ int main()
 		}
 		for (int i = 0; i < vertices.size(); i++)
 		{
-			RectangleShape rect(Vector2f(1, 1));
+			RectangleShape rect(Vector2f(5, 5));
 			rect.setPosition(Vector2f(vertices[i].x, vertices[i].y));
 			rect.setFillColor(Color::Blue);
 			window.draw(rect);
