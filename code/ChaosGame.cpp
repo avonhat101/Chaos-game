@@ -46,7 +46,7 @@ int main()
 		Event event;
 		while (window.pollEvent(event))
 		{
-			if (Keyboard::isKeyPressed(Keyboard::J)
+			if (Keyboard::isKeyPressed(Keyboard::J))
 			{
 				Shape_num = 0;
 				vertices.clear();
