@@ -46,6 +46,17 @@ int main()
 		Event event;
 		while (window.pollEvent(event))
 		{
+			if (Keyboard::isKeyPressed(Keyboard::J)
+			{
+				Shape_num = 0;
+				vertices.clear();
+				points.clear();
+				RegularShape.clear();
+				count = 1;
+				iter = 0;
+				Y = false;
+				Fractal_gen = -1;
+			}
 			if (Keyboard::isKeyPressed(Keyboard::Y) && Shape_num != 0)
 			{
 				/// set flag for regular shape that can only be used after the type of shape is decided
