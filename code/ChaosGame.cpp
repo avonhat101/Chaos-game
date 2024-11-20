@@ -126,7 +126,7 @@ int main()
 							for (int i = 0; i < Shape_num; i++)
 							{
 								vertices.push_back(Vector2f(RegularShape[0].x + (magnitude * cos(angle * (i + 1))), RegularShape[0].y + (magnitude * sin(angle * (i + 1)))));
-								cout << vertices[i].x << " " << vertices[i].y << endl;
+								//cout << vertices[i].x << " " << vertices[i].y << endl;
 							}
 						}
 					}
