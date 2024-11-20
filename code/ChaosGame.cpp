@@ -85,7 +85,7 @@ int main()
 			{
 				Shape_num = 7;
 				MultFactor = 0.692;
-				cout << Shape_num << endl;
+				//cout << Shape_num << endl;
 				angle = 0.8975979;
 			}
 			if (Keyboard::isKeyPressed(Keyboard::Num8))
